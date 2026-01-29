@@ -1,7 +1,7 @@
 # Quitter-App-JavaFX-SpringBoot
 
 I made a Quitter App using javaFX and springboot. This is my second springboot project.
-I made this to explore concurrency(Threading), spring data, and H2 databases.
+I made this to explore concurrency(Threading), spring data, Jakarta persistence API (JPA) and H2 databases.
 I didn't use the "var" data type as much as my last project for better clarity.
 
 Steps to run:
