@@ -31,6 +31,18 @@ public class ProgressService {
 			
 			progress.setTargetTime1(LocalDateTime.now().plusMinutes(1));
 			
+			progress.setTargetTime2(LocalDateTime.now().plusMinutes(10));
+			
+			progress.setTargetTime3(LocalDateTime.now().plusHours(1));
+			
+			progress.setTargetTime4(LocalDateTime.now().plusHours(10));
+			
+			progress.setTargetTime5(LocalDateTime.now().plusDays(1));
+			
+			progress.setTargetTime6(LocalDateTime.now().plusDays(10));
+			
+			progress.setTargetTime7(LocalDateTime.now().plusDays(100));
+			
 			progress.setStarted(true);
 			
 			repo.save(progress);
